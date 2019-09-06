@@ -26,3 +26,6 @@ Any mail sent from WordPress will go to the Mailcatcher which you can view at ht
 
 From now on, you can start the site with `docker-compose up -d`, and stop it with `docker-compose down`. You won't need to run the setup script again.
 
+## Development
+
+This repo also contains a template for a class-based plugin with unit tests, that you can expand on if you'd like to. See the plugin's [README](/wp-content/plugins/plugin-template/README.md) for more info.
