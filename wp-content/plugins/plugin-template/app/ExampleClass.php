@@ -4,6 +4,7 @@ class ExampleClass
 {
     public function foo()
     {
-        return 'bar';
+        $link = get_permalink(42);
+        return $link . 'bar';
     }
 }
