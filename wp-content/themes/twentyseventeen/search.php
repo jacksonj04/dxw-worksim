@@ -27,6 +27,9 @@ get_header(); ?>
 
 		<?php
 		if ( have_posts() ) :
+
+			?> <p>Sort posts by: <a href="/?s=<?php echo $_GET['s'] ?>" class="more-link">Relevancy</a> • <a href="/?s=<?php echo $_GET['s'] ?>&order=desc" class="more-link">Newest First</a> • <a href="/?s=<?php echo $_GET['s'] ?>&order=asc" class="more-link">Oldest First</a></p> <?php
+
 			/* Start the Loop */
 			while ( have_posts() ) :
 				the_post();
